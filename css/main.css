@@ -469,3 +469,14 @@ a, button{
     text-transform: uppercase;
     outline: none;
 }
+
+.cahee-slide4-btn:hover,
+.cahee-slide4-btn:focus{
+    background: #fff;
+    color: #5585a2;
+}
+
+.cahee-slide4-btn:active{
+    background: #e3e2e2;
+    color: #ff6033;
+}
