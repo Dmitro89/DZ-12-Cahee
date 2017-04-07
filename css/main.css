@@ -153,29 +153,38 @@ a, button{
 /*cahee-container*/
 
 .cahee-container{
-    width: 1500px;
+   /* width: 1500px;*/
+   /* height: 1000px;*/
     width: 100%;
-    height: 1000px;
-    /*min-height: 100vh;*/
+    min-height: 100vh;
     background: #f9f8fb url(../img/header-bg.png) no-repeat center center;
     background-size: cover;
 }
 
 .cahee-info{
     position: relative;
+    padding-bottom: 537px;
     margin: 0 auto;
     padding-top: 50px;
     max-width: 1170px;
     width: 100%;
-    height: 1000px;
+    min-height: 100vh;
+    /*height: 1000px;*/
 }
 
 .cahee__logo{
     display: inline-block;
+    padding: 0;
 }
 
 .cahee-navi{
+    padding: 0;
     float: right;
+    text-align: right;
+}
+
+.cahee__menu{
+    padding: 0;
 }
 
 .cahee__li{
@@ -188,11 +197,12 @@ a, button{
 }
 
 .cahee__menu a:hover{
-    color: #ba22e0;
+    border-top: 3px solid #ff6033;
 }
 
 .cahee__menu a:active{
     border-top: 3px solid #ff6033;
+    color: #ba22e0;
 }
 
 .cahee__menu .cahee__li:last-child{
@@ -201,9 +211,8 @@ a, button{
 
 .cahee-aside{
     position: absolute;
+    padding: 0;
     top: 35%;
-    margin-top: -19px;
-    width: 33.3333%;
 }
 
 .cahee__caption{
@@ -220,8 +229,8 @@ a, button{
 }
 
 .cahee__btn{
-    width: 200px;
-    height: 55px;
+    width: 51.3%;
+    padding: 12px 0;
     margin-top: 15px;
     font-size: 20px;
     background-color: #ff6033;
@@ -248,8 +257,8 @@ a, button{
     position: absolute;
     left: 50%;
     bottom: 0;
-    margin-bottom: 120px;
-    transform: translateX(-15px);
+    margin-bottom: 68px;
+    transform: translateX(-13px);
 }
 
 .cahee__scroll:hover{
@@ -265,32 +274,33 @@ a, button{
 /* cahee-slide2 */
 
 .cahee-slide2{
-    position: relative;
-    width: 1500px;
     width: 100%;
-    height: auto;
+    min-height: 100vh;
     background: #00c4c4 url(../img/section2-bg.png) 50% no-repeat;
     background-size: cover;
 }
 
-.cahee-info-slide{
-    width: 1200px;
-    height: 700px;
+.cahee-info-slide2{
+    position: relative;
+    max-width: 1170px;
+    min-height: 100vh;
+    padding-bottom: 22px;
     margin: 0 auto; 
 }
 
 .cahee-left-img{
-    display: inline-block;    
+    display: inline-block;
+    max-width: 100%;
+    height: auto;  
     margin-top: 30px;
 }
 
 .cahee-about-us{
     position: absolute;
-    display: inline-block; 
-    top: 25%;
-    margin-top: -50px;
-    width: 500px;
-    margin-left: 40px;
+    display: inline-block;
+    width: 41.6665%;
+    top: 17.5%;
+    margin-left: 20px;
 }
 
 .cahee-slide2__abouts{
@@ -298,7 +308,6 @@ a, button{
     margin: 40px 0 0;
     font-size: 90px;
     font-weight: 700;
- /*   line-height: 0.3;*/
 }
 
 .cahee-slide2__text{
@@ -309,9 +318,154 @@ a, button{
 }
 
 .cahee-slide2__text:nth-child(2){
-    margin-top: 0;
+    margin-top: 5px;
 }
 
-/*.cahee-about-us:last-child{
-    padding-bottom: -100px;
-}*/
+
+/* cahee-slide3 */
+
+.cahee-slide3{
+    background: #70bfff url(../img/slide-3-bg.png) 50% no-repeat;
+    background-size: cover;
+}
+
+.cahee-info-slide3{
+    max-width: 1170px;
+    min-height: 100vh;
+    padding-bottom: 131px;
+    margin: 0 auto; 
+}
+
+.cahee-slide3-shopping{
+    position: relative;
+    display: inline-block;
+    margin: 179px 0 0 100px;
+    padding: 0;
+    width: 34.189%;
+}
+
+.cahee-row__text,
+.cahee__slide3__img{
+    display: inline-block;
+
+}
+.cahee-row{
+    position: relative;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.cahee-row__text{
+    width: 75%;
+    padding: 36.5px 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+    border-right: 1px solid;
+
+}
+
+.cahee__slide3__img{
+    position: absolute;
+    left: 80%;
+    transform: translateY(23px);
+}
+
+.cahee--row1__img{
+    transform: translateY(25px);
+    left: 81%;
+}
+
+.cahee--row3__text{
+    padding: 23px 0;
+    margin: 0;
+}
+
+.cahee-row__text:hover{
+    background: #ff6033;
+}
+
+.cahee-row__text a:hover{
+    color: #fff;
+}
+
+.cahee-row__text a:active,
+.cahee-row__text a:focus{
+    color: #02b4b4;
+}
+
+.cahee-slide3-our{
+    position: absolute;
+    display: inline-block;
+    transform: translateY(77%);
+    margin: 0;
+    padding: 0;
+    color:  #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+/* cahee-slide4 */
+
+.cahee-slide4{
+    background: #ffe92f;
+    background-size: cover;
+}
+
+.cahee-info-slide4{
+    position: relative;
+    max-width: 1170px;
+    min-height: 100vh;
+    padding-bottom: 82.58%;
+    margin: 0 auto; 
+}
+
+.cahee-slide4-container{
+
+   margin: 62px 300px 10px 290px;
+   padding: 0;
+}
+
+.cahee__slide4__gallery{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 0.3;
+    text-align: center;
+}
+
+.cahee__slide4__text{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.59;
+    text-align: center;
+}
+
+.cahee-slide4-row .col-8, .col--6{
+    padding: 15px 15px 15px 0;
+}
+
+.cahee-slide4-row .col-4, .col--6last{
+    padding: 15px 0 0 15px;
+}
+
+.cahee-slide4-btn{
+    position: absolute;
+    left: 41.5%;
+    bottom: 0;
+    margin-bottom: 110px;
+   /* transform: translateX(-19px);*/
+    width: 17.1%;
+    padding: 12px 0;
+    background-color: #5585a2;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.35;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+}
