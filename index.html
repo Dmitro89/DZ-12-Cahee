@@ -16,14 +16,14 @@
 			<div class="cahee__logo col-2">
 				<a href="#"><img src="img/header-logo.png" alt="logo"></a>
 			</div>
-			<div class="cahee-navi col-6">
+			<div class="cahee-navi col-6" id="HOME">
 				<ul class="cahee__menu">
-					<li class="cahee__li"><a href="#">HOME</a></li>
+					<li class="cahee__li"><a href="#HOME">HOME</a></li>
 					<li class="cahee__li"><a href="#About_Us">ABOUT</a></li>
 					<li class="cahee__li"><a href="#Services">SERVICES</a></li>
 					<li class="cahee__li"><a href="#Gallery">GALLERY</a></li>
-					<li class="cahee__li"><a href="#">BLOG</a></li>
-					<li class="cahee__li"><a href="#">CONTACT</a></li>
+					<li class="cahee__li"><a href="#Blog">BLOG</a></li>
+					<li class="cahee__li"><a href="#Contact">CONTACT</a></li>
 				</ul>
 			</div> <!-- cahee-navi -->
 
@@ -103,10 +103,98 @@
 			</div>
 		</div><!-- /.cahee-slide4 -->
 		
+		<div class="cahee-slide5">
+			<div class="cahee-info-slide5">
+				<div class="cahee-slide5-colomn col-6">
+					<h2 class="cahee__slide5__subscribe">Subscribe To Us</h2>
+					<p class="cahee__slide5__text">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+					</p>
+					<input class="cahee-slide5-input" type="mail" name="mail" required placeholder="Your email address..." autocomplete="on" form="mail">
+				</div>
 
+				<form id="mail">
+					<button class="cahee-slide5-btn" type="submit">SUBSCRIBE</button>
+				</form>
+			</div>
+		</div><!-- /.cahee-slide5 -->
+
+		<div class="cahee-slide6">
+			<div class="cahee-slide6-container" id="Blog">
+				<div class="cahee-info-slide6 col-6">
+					<h1 class="cahee__slide6__caption">Blog</h1>
+					<p class="cahee__slide6__info__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+					</p>
+				</div>
+
+				<div class="cahee-slide6-img-section">
+					<div class="cahee-slide6-img col-4">
+						<img src="img/slide6-img1.png">
+						<div class="cahee__slide6__text">
+							<p class="cahee__slide6__text__top "><span>20</span> NOV</p>
+							<div class="cahee__slide6__text__botom">
+								<p class="cahee__slide6__text__botom1">Green Smoothies: Too Much of a Good Thing?</p>
+								<p class="cahee__slide6__text__botom2">By Auskteez - 2 hours ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="cahee-slide6-img col-4">
+						<img src="img/slide6-img2.png">
+						<div class="cahee__slide6__text">
+							<p class="cahee__slide6__text__top col-2"><span>14</span> NOV</p>
+							<div class="cahee__slide6__text__botom">
+								<p class="cahee__slide6__text__botom1">Growing Food and a “Thirst” for Innovation</p>
+								<p class="cahee__slide6__text__botom2">By Auskteez - 3 hours ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="cahee-slide6-img col-4">
+						<img src="img/slide6-img3.png">
+						<div class="cahee__slide6__text">
+							<p class="cahee__slide6__text__top col-2"><span>10</span> NOV</p>
+							<div class="cahee__slide6__text__botom">
+								<p class="cahee__slide6__text__botom1">Pesticides & Food: What You Need to Know</p>
+								<p class="cahee__slide6__text__botom2">By Auskteez - 6 hours ago</p>
+							</div>
+						</div>
+					</div>
+					<button class="cahee-slide6-btn">VIEW MORE</button>
+				</div>
+			</div>
+		</div><!--  cahee-slide6 -->
+		
+		<div class="cahee-slide7">
+			<div class="cahee-slide7-container" id="Contact">
+				<div class="cahee-info-slide7 col-4">
+					<h1 class="cahee__slide7__caption ">Contact</h1>
+					<p class="cahee__slide7__info__text ">For new projects, ideas, business or anything you'd like to discuss, contact with me!
+					</p>
+				</div>
+
+				<form class="cahee-slide7-servises col-5">
+					<input type="text" class="cahee-slide7-row" placeholder="Auskteez Tran">
+					<input type="mail" class="cahee-slide7-row" placeholder="Your email...">
+					<input type="tel" pattern="" class="cahee-slide7-row" placeholder="Your phone number...">
+					<textarea class="cahee-slide7-row4" type="text"  placeholder="Your messge..."></textarea>
+				</form>
+				<div class="cahee-slide7-info col-4">
+					<p class="cahee__slide7__info__bold">ADDRESS</p>
+						<p class="cahee__slide7__info__answer">123 City name, Street, City, Country</p>
+					<p class="cahee__slide7__info__bold">EMAIL</p>
+						<p class="cahee__slide7__info__answer">cahee@domain.com</p>
+					<p class="cahee__slide7__info__bold">PHONE</p>
+						<p class="cahee__slide7__info__answer">+012 345 6789</p>
+				</div>
+			</div> <!-- cahee-info-slide7 -->
+		</div>
+		<!-- /.cahee-slide7 -->
 	</main>
 
-	<footer>
+	<footer class="cahee-footer">
+		<div class="cahee-footer-info">
+			<p class="cahee__footer__text1 col-3">&copy; 2015 Company. All right reserved.</p>
+			<p class="cahee__footer__logo col-1"><img src="img/footer-logo-small.png" alt="logo-small"></p>
+			<p class="cahee__footer__text2 col-3">Made with <span>love</span> by Auskteez</p>
+		</div>
 	</footer>
 
 </body>
